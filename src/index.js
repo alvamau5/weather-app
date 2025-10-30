@@ -20,7 +20,7 @@ function search(e) {
   if (clima === "") {
     // console.log("Este campo es obligatorio...");
 
-    mostrarError("Por favor esribe una ciudad correcta...");
+    mostrarError("Por favor escribe una ciudad correcta...");
 
     input.focus();
     return;
@@ -92,3 +92,4 @@ function mostrarClima(data) {
   form.reset();
   input.focus();
 }
+
